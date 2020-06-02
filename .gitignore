@@ -1,0 +1,8 @@
+*.p
+*.comp
+v1/CHRT/*
+v1/LDAS/*
+v1/RT/*
+v2/CHRT/*
+v2/LDAS/*
+v2/RT/*
