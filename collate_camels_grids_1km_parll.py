@@ -1,4 +1,4 @@
-#!/home/jmframe/programs/anaconda3/bin/python3
+#!/your directory here/anaconda3/bin/python3
 import pickle
 import pandas as pd
 import numpy as np
@@ -102,5 +102,5 @@ camels_dictionary = make_dictionary(dates,features,basins)
 for ib, b in enumerate(basins):
     camels_dictionary[b].loc[:] = np.array(results_parallel)[:,ib,:]
 
-with open('/home/NearingLab/data/nwm/v2/LDAS/camels_basins/dynamic_features_nwm_RT_'+str(s_y)+'.p', 'wb') as pf:
+with open('/YOUR DIRECTORY HERE/v2/LDAS/camels_basins/dynamic_features_nwm_RT_'+str(s_y)+'.p', 'wb') as pf:
     pickle.dump(camels_dictionary, pf, protocol=pickle.HIGHEST_PROTOCOL)

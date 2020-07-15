@@ -13,8 +13,8 @@ arbitrary_start = int(sys.argv[2]) if len(sys.argv) > 2 else None
 arbitrary_stop = int(sys.argv[3]) if len(sys.argv) > 3 else None
 
 #HOME_DIR = Path('/home/aaraney/gh/nwm_lstm/data')
-HOME_DIR = Path('/home/NearingLab/data/nwm/v2/')
-DATA_DIR = Path('/home/NearingLab/data/nwm/v2/CHRT/')
+HOME_DIR = Path('/YOUR DIRECTORY HERE/v2/')
+DATA_DIR = Path('/YOUR DIRECTORY HERE/v2/CHRT/')
 
 # List of files names
 FILES = list((DATA_DIR/ year).glob('*'))

@@ -1,4 +1,4 @@
-#!/home/jmframe/programs/anaconda3/bin/python3
+#!/your directory here/anaconda3/bin/python3
 # jmframe: I am making this script to loop through the nwm land surface files (LDAS)
 # and isolate the values within a shapefile. Save their mean values for LSTM
 import datetime

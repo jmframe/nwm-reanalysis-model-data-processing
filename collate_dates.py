@@ -2,7 +2,7 @@
 import pickle as pkl
 from pathlib import Path
 
-DIR = Path('/home/NearingLab/data/nwm/v2/CHRT_OUT/')
+DIR = Path('/YOUR DIRECTORY HERE/v2/CHRT_OUT/')
 
 DIR = list(DIR.glob('*.p'))
 DIR.sort()
